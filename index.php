@@ -24,6 +24,8 @@
         <!-- Add your site or application content here -->
         <?php 
         /* http://localhost:8888/notes-03-arrays/index.php */
+
+        git clone https://github.com/ironion/notes-03-arrays-pa
         
         ?> 
 
