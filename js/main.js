@@ -82,6 +82,46 @@ document.write('<br>' + pizza);
 
 /* Create a single array, that populates itself using push() or unshift() based upon a user prompt. Populate your array with at least three elements. */
 
+var hotdogs = [];
+var question1 = prompt ('what is your favourite color');
+var question2 = prompt ('what is your favourite time of the day');
+var question3 = prompt ('what is your favourite number between 1 and 25');
+
+hotdogs.push(question1 + question2 + question3);
+document.write(hotdogs);
+
+
+// using for loop
+
+var groceries = [];
+
+for (var i = 0; i < 3; i++) {
+	var items = prompt('enter a grocery item');
+	groceries.push(items);
+}
+
+document.write('<br> groceries List' + groceries);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
